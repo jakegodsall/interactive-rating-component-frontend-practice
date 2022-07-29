@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Netlify](jakegodsall-interactive-rating.netlify.app)
+- Live Site URL: [Netlify](https://jakegodsall-interactive-rating.netlify.app/)
 
 ## My process
 
