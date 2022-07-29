@@ -65,12 +65,12 @@ Users should be able to:
     <tr>
       <td>29/07/22</td>
       <td>2:00pm</td>
-      <td>3:15pm</td>
+      <td>3:30pm</td>
       <td>
         <p>Created basic structure of the document. Finalised mobile and desktop versions of the first view. Added rating buttons using HTML button elements.</p> 
       </td>
       <td>To look into using a HTML form using radio buttons instead. Start devloping the second view.</td>
-      <td>1:15</td>
+      <td>1:30</td>
     </tr>
   </tbody>
 </table>
