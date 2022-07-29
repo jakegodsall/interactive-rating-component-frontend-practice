@@ -70,7 +70,17 @@ p {
     
 }
 
+.active {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
 .attribution {
     text-align: center;
     margin-top: 30px;
+}
+
+@media screen and (min-width: 500px) {
+    .container {
+        max-width: 350px;
+    }
 }
