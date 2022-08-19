@@ -1,86 +1,132 @@
 /* mobile first (width: 750px) */
-
 body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-    background-color: hsl(216, 12%, 8%);
-    font-family: 'Overpass', sans-serif;
-    font-size: 15px;
-    color: hsl(217, 12%, 63%)
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216deg, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  color: hsl(217deg, 12%, 63%);
 }
-
-.container {
-    background-color: #212733;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 12px;
-    border-radius: 15px;
+body .rating-container {
+  background-color: #212733;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 300px;
+  height: 340px;
+  border-radius: 15px;
 }
-
-img {
-    max-width: 5%;
-    background-color: hsla(216, 12%, 54%, 0.2);
-    border-radius: 20px;
-    padding: 12px;
+body .rating-container img {
+  max-width: 5%;
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  border-radius: 20px;
+  padding: 12px;
+  transition: transform 2s ease-in-out;
 }
-
-h1 {
-    color: hsl(0, 0%, 100%);
-    margin-bottom: 0;
+body .rating-container img:hover {
+  transform: rotate(360deg);
 }
-
-p {
-    margin-bottom: 30px;
+body .rating-container h1 {
+  color: hsl(0deg, 0%, 100%);
+  margin-bottom: 0;
 }
-
-.options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
+body .rating-container p {
+  margin-bottom: 30px;
 }
-
-.btn {
-    border-radius: 100%;
-    border: none;
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
-    background-color: hsla(216, 12%, 54%, 0.2);
-    color: hsl(217, 12%, 63%);
-    cursor: pointer;
+body .rating-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.submit {
-    background-color: hsl(25, 97%, 53%);
-    border: none;
-    border-radius: 20px;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 10px;
-    cursor: pointer;
-    
+body .rating-container form .options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 15px;
 }
-
-.active {
-    background-color: hsl(25, 97%, 53%);
-    color: #fff;
+body .rating-container form .options .btn {
+  border-radius: 100%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  color: hsl(217deg, 12%, 63%);
+  cursor: pointer;
+  transition: all 0.1s ease-in;
 }
-.attribution {
-    text-align: center;
-    margin-top: 30px;
+body .rating-container form .options .btn:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: #fff;
 }
-
+body .rating-container form .options .active {
+  background-color: hsl(216deg, 12%, 54%);
+  color: #fff;
+}
+body .rating-container form #submit {
+  background-color: hsl(25deg, 97%, 53%);
+  border: none;
+  border-radius: 20px;
+  width: 300px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+body .rating-container form #submit:hover {
+  color: hsl(25deg, 97%, 53%);
+  background-color: #fff;
+}
 @media screen and (min-width: 500px) {
-    .container {
-        max-width: 350px;
-    }
+  body .rating-container .container {
+    max-width: 350px;
+  }
 }
+body .thank-you-container {
+  background-color: #212733;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  height: 340px;
+  border-radius: 15px;
+  text-align: center;
+}
+body .thank-you-container img {
+  width: 60%;
+  margin-top: 20px;
+}
+body .thank-you-container #rating {
+  color: hsl(25deg, 97%, 53%);
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  padding: 5px 10px;
+  border-radius: 50px;
+  width: 60%;
+  display: inline-block;
+  margin: 20px 0px 5px 0px;
+}
+body .thank-you-container h2 {
+  margin-bottom: 0;
+  color: #fff;
+}
+body .attribution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin-top: 30px;
+  text-align: center;
+}
+body .attribution a {
+  color: white;
+}/*# sourceMappingURL=stylesheet.css.map */
