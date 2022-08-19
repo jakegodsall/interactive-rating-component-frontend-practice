@@ -11,11 +11,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Development History](#development-history)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,9 +27,17 @@ Users should be able to:
 
 ### Screenshot
 
-`ADD SCREENSHOT HERE`
+<table>
+  <tr>
+    <td>
+<img src="finished-rating-component.png" width=350px height=450px>
+    </td>
+    <td>
+    <img src="finished-thank-you-component.png" width=350px height=450px>
+    </td>
+  </tr>
+</table>
 
-### Links
 
 - Live Site URL: [Netlify](https://jakegodsall-interactive-rating.netlify.app/)
 
@@ -43,44 +48,22 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- SCSS
 - Mobile-first workflow
 - Vanilla JS
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-### Development History
+I have learned a ton from completing this project. 
+This is the first Frontend Mentor project I have worked on where I have used JavaScript. The most notable points here are:
 
-<table>
-  <thead>
-    <th>Date</th>
-    <th>Start Time</th>
-    <th>End Time</th>
-    <th>Actions</th>
-    <th>Next Actions</th>
-    <th>Total</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>29/07/22</td>
-      <td>2:00pm</td>
-      <td>3:30pm</td>
-      <td>
-        <p>Created basic structure of the document. Finalised mobile and desktop versions of the first view. Added rating buttons using HTML button elements.</p> 
-      </td>
-      <td>To look into using a HTML form using radio buttons instead. Start devloping the second view.</td>
-      <td>1:30</td>
-    </tr>
-  </tbody>
-</table>
+- How to use event listeners to select one from many elements via clicking (and remove previous selection)
+- How to use `display:none` to hide and show different components using event listeners.
+
 
 ### Continued development
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+I shall continue to work on similar projects, until the intersection of HTML, CSS and JavaScript becomes more intuitive to me. Also, I will learn how to use `display:grid` for the next project I work on.
 
 ## Author
 
